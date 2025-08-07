@@ -1,0 +1,35 @@
+/* iniciar.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right,#F2D5D5,#D99A9F,#BF6068); /* cor de fundo do corpo */
+    color: #A60303; /* cor do texto principal */
+}
+
+h1 {
+    color: #A60F1B; /* cor do título principal */
+}
+
+p {
+    color: #000000; /* cor do texto secundário */
+}
+
+ul li a {
+    background-color: #e92f2f; /* cor de fundo dos botões */
+    color: #FFFFFF; /* cor do texto dos botões */
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    box-shadow: 5px 5px 10px black;
+}
+
+ul li a:hover {
+    background-color: #A60F1B; /* cor de fundo dos botões ao passar o mouse */
+}
+
+audio {
+    margin-top: 20px;
+}

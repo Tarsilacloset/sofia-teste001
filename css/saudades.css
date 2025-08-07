@@ -1,0 +1,104 @@
+/* Fundo em degradê suave */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(to right, #bfaa84, #a68b6a);
+  color: #333;
+  padding: 10px;
+}
+
+/* Cabeçalho centralizado */
+header h1 {
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px #000;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Caixa dos blocos */
+div {
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(89, 62, 37, 0.5);
+  padding: 15px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+/* Estilo dos parágrafos */
+p {
+  background-color: #bfcdd9;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px auto;
+  max-width: 90%;
+}
+
+/* Imagem responsiva */
+img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+/* Vídeos com fundo preto e responsivos */
+video {
+  background-color: black;
+  display: block;
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+
+/* Estilo para citações */
+blockquote {
+  font-style: italic;
+  color: #444;
+  margin-top: 10px;
+}
+
+q {
+  quotes: "“" "”";
+}
+
+/* Responsividade para telas pequenas */
+@media screen and (max-width: 600px) {
+  header h1 {
+    font-size: 1.5em;
+  }
+
+  div {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+}
+/* Estilo da div de voltar */
+.voltar {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Estilo do botão de voltar */
+.btn-voltar {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #593E25;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease;
+}
+
+/* Efeito hover */
+.btn-voltar:hover {
+  background-color: #7a5435;
+}

@@ -1,0 +1,83 @@
+/* momentos.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F2D5D5;
+    margin: 0;
+    padding: 0;
+    color: #A60303;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #A60F1B;
+    color: #fff;
+     border-radius: 30px; 
+     margin-bottom: 30px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+   
+}
+
+div {
+    background-color: #FFFFFF;
+    border: 2px solid #D99A9F;
+    border-radius: 35px;
+    box-shadow: 0 4px 8px rgba(166, 15, 27, 0.2);
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 600px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(166, 15, 27, 0.3);
+}
+
+p {
+    font-size: 1.1em;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+
+img {
+    width: 100%;
+    max-width: 300px;   /* largura máxima */
+    height: 350px;      /* altura menor */
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    object-fit: cover;  /* mantém o corte bonito sem distorcer */
+}
+
+
+
+/* Estilo da div de voltar */
+.voltar {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Estilo do botão de voltar */
+.btn-voltar {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #ff0000;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease;
+}
+
+/* Efeito hover */
+.btn-voltar:hover {
+  background-color: #7a5435;
+}
